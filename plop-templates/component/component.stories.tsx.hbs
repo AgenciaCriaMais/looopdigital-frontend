@@ -1,0 +1,25 @@
+import type { Meta, StoryObj } from '@storybook/react';
+import { {{pascalCase name}} } from './{{pascalCase name}}';
+
+/**
+* @author {{author}}
+* @description {{description}}
+* @date {{dataBr}}
+* @class {{pascalCase name}}
+*/
+const meta: Meta<typeof {{pascalCase name}}> = {
+    title: 'Components/{{pascalCase name}}',
+    component: {{pascalCase name}},
+    args: {
+        // Propriedades padrão para o componente na story
+    },
+};
+
+export default meta;
+type Story = StoryObj<typeof {{pascalCase name}}>;
+
+export const Primary: Story = {
+    args: {
+        // Defina ou sobrescreva props específicas para esta Story
+    },
+};

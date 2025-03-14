@@ -1,0 +1,24 @@
+import React from 'react';
+import styles from './{{pascalCase name}}.module.css';
+
+/**
+* @author {{author}}
+* @description {{description}}
+* @date {{dataBr}}
+* @class {{pascalCase name}}
+*/
+
+interface {{pascalCase name}}Props {
+    name: string;
+    // Adicione outras props, se necessário
+}
+
+export function {{pascalCase name}}(props: {{pascalCase name}}Props) {
+    return (
+        <div className={styles.container}>
+            <h1>{props.name || '{{pascalCase name}} works!'}</h1>
+        </div>
+    );
+}
+
+export default {{pascalCase name}};
