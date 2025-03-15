@@ -1,4 +1,6 @@
 .container {
     padding: 16px;
     border: 1px solid #ccc;
+    background-color: #1ea7fd;
+    color: #fff;
 }

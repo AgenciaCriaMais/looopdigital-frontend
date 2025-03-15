@@ -26,12 +26,15 @@
     "generate": "plop",
     "g:component": "plop component",
     "g:feature": "plop createFeature",
-    "g:featureComp": "plop feature-component"
+    "g:featureComp": "plop feature-component",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:storybook/recommended"
     ]
   },
   "browserslist": {
@@ -47,6 +50,18 @@
     ]
   },
   "devDependencies": {
-    "plop": "^4.0.1"
+    "@chromatic-com/storybook": "^3.2.6",
+    "@storybook/addon-essentials": "^8.6.4",
+    "@storybook/addon-interactions": "^8.6.4",
+    "@storybook/addon-onboarding": "^8.6.4",
+    "@storybook/blocks": "^8.6.4",
+    "@storybook/preset-create-react-app": "^8.6.4",
+    "@storybook/react-webpack5": "^8.6.4",
+    "@storybook/test": "^8.6.4",
+    "eslint-plugin-storybook": "^0.11.4",
+    "plop": "^4.0.1",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.6.4",
+    "webpack": "^5.98.0"
   }
 }
