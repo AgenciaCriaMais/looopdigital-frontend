@@ -7,7 +7,7 @@ import { LoginForm } from './LoginForm';
 * @author Jean Paul | jeanpaulwebb@gmail.com
 * @class LoginForm
 * @description Descrição do componente da feature
-* @date 14/03/2025
+* @date 18/03/2025
 */
 describe('<LoginForm />', () => {
     it('should render the component name', () => {

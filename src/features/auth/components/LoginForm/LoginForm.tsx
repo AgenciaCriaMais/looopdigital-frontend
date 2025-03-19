@@ -4,7 +4,7 @@ import styles from './LoginForm.module.css';
 /**
 * @author Jean Paul | jeanpaulwebb@gmail.com
 * @description Descrição do componente da feature
-* @date 14/03/2025
+* @date 18/03/2025
 * @class LoginForm
 */
 

@@ -4,7 +4,7 @@ import { LoginForm } from './LoginForm';
 /**
 * @author Jean Paul | jeanpaulwebb@gmail.com
 * @description Descrição do componente da feature
-* @date 14/03/2025
+* @date 18/03/2025
 * @class LoginForm
 */
 const meta: Meta<typeof LoginForm> = {
